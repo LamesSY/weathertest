@@ -121,6 +121,8 @@ public class WeatherActivity extends AppCompatActivity {
                 drawerLayout.openDrawer(GravityCompat.START);
             }
         });
+
+        loadBingPic();
     }
 
     private void loadBingPic() {
